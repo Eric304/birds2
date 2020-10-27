@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +13,56 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Titulo{
+  font-size: xx-large;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bird{
+  background-color: rgb(6, 153, 197);
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  width: 250px;
+  height: 250px;
+  font-size: small;
+  border-radius: 10px;
+
+}
+.birdName{
+  font-size: xx-large;
+}
+
+img{
+  min-width: 150px;
+  max-height: 150px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.Mostrar{
+  display: inline-block;
+  align-items: left;
+  
+}
+
+.Crear{
+  background: rgb(43, 150, 16);
+  margin-top: 50px;
+  padding: 10px;
+  text-align: left;
+}
+.Creartitulo{
+  text-align: center;
+  padding: 20px;
+
+}
+
+.Texto{
+  text-align: left;
+}
+
+.boton{
+  margin: 25px;
+  text-align: center;
 }
